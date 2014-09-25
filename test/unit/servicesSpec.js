@@ -4,8 +4,10 @@
 
 describe('service', function() {
   beforeEach(module('angular_rest.services'));
+
   describe('rtmFactory', function() {
     var scope, httpBackend, rtmFactory, result;
+
     beforeEach(inject(function(_rtmFactory_, $httpBackend) {
       httpBackend = $httpBackend;
       rtmFactory = _rtmFactory_
