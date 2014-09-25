@@ -28,3 +28,12 @@
   content: "";
   padding: 0;
 }
+
+.pin-layout {
+  column-count: 4;
+  column-gap: 0px;
+  -moz-column-count: 4;
+  -moz-column-gap: 0px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0px;
+}
