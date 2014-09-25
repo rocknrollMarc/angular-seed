@@ -4,6 +4,8 @@
       <h3 class="caption">{{ movie.title }}</h3>
       <img width="180" ng-src=" {{ movie.posters.detailed }}" alt="{{ movie.title }}"> 
       <p>{{ movie.synopsis }}</p>
+      <button class=" btn btn-info" ng-click="loadMovies(country.code" ng-repeat="country in countries">
+        {{ country.name }}</button>
       </div>
     </div>
   </div>
