@@ -2,10 +2,10 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', ['$scope', function($scope) {
+angular.module('angular_rest.controllers', [])
+  .controller('MovieListCtrl', ['$scope', 'rtmFactory',
+             function($scope, rtmFactory) {
+               $scope.countries = rtmFactory.getCountries();
+}
+  ])
 
-  }])
-  .controller('MyCtrl2', ['$scope', function($scope) {
-
-  }]);
